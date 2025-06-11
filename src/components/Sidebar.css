@@ -1,0 +1,25 @@
+.sidebar {
+    position: fixed;          /* Завжди на місці */
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;            /* Вся висота екрану */
+    background-color: #2e3a59;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+}
+
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.sidebar nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
